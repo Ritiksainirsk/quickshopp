@@ -116,21 +116,44 @@
   margin-top: 10px;
   display: none;
   cursor: pointer;
-  margin-right: 30px;
-  margin-left: 10px;
+  margin-right: 15px;
+  margin-left: 5px;
 }
 
 
 @media (max-width: 670px) {
+  .hum{
+    font-size: 22px;
+  }
+  .logo img{
+    width: 30px;
+    height: 30px;
+  }
+  .logo p{
+    font-size: 17px;
+  }
   .humburger{
     display: block;
   }  
   .navmenu{
     display: none;
   }
-  .nav-login-cart{
+  .nav-login-cart button{
     display: none;
   }
+  .nav-login-cart img, div{
+    margin-right: 5px;
+  }
+  .nav-login-cart img{
+    width: 23px;
+    margin-top: 5px;
+  }
+  .cart-count{
+    padding: 1px 4px;
+    font-size: 8px;
+    margin-top: -10px;
+    margin-left: -56px;
+}
   .navbar{
     justify-content: space-between;
   }

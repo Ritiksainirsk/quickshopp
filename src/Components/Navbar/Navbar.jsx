@@ -100,7 +100,7 @@ export default function Navbar() {
         <div className="logo">
           <div className="humburger">
             <div>
-              <div onClick={toggleDrawer(true)}>
+              <div className="hum" onClick={toggleDrawer(true)}>
                 <IoMenu />
               </div>
               <Drawer open={open} onClose={toggleDrawer(false)}>
