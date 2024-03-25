@@ -141,7 +141,7 @@
   .nav-login-cart button{
     display: none;
   }
-  .nav-login-cart img, div{
+  /* .nav-login-cart img, div{
     margin-right: 5px;
   }
   .nav-login-cart img{
@@ -153,7 +153,7 @@
     font-size: 8px;
     margin-top: -10px;
     margin-left: -56px;
-}
+} */
   .navbar{
     justify-content: space-between;
   }
