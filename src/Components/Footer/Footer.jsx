@@ -23,13 +23,27 @@ export default function Footer() {
 
       <div className="footer-social-icons">
         <div className="footer-icons-container">
-          <img src={Instagram} alt="" srcset="" />
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <img src={Instagram} alt="" srcset="" />
+          </a>
         </div>
         <div className="footer-icons-container">
           <img src={Pintester} alt="" srcset="" />
         </div>
         <div className="footer-icons-container">
-          <img src={Whatsapp} alt="" srcset="" />
+          <a
+            href="https://web.whatsapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <img src={Whatsapp} alt="" srcset="" />
+          </a>
         </div>
       </div>
 
