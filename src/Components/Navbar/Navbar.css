@@ -1,0 +1,154 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0 1px 3px -2px black;
+  /* position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1000; */
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.logo > img {
+  width: 40px;
+  height: 40px;
+}
+
+.logo > p {
+  font-size: 29px;
+  font-weight: 700;
+  /* font-family: "EB Garamond", serif; */
+  font-family: "Lobster", sans-serif;
+}
+
+.navmenu{
+    display: flex;
+    gap: 28px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #9F0495;
+}
+
+.navmenu li{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.navmenu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #6B0464;
+}
+
+.nav-login-cart{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+}
+.nav-login-cart > button{
+    width: 110px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 14px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+}
+.nav-login-cart button:active{
+    background-color: #f3f3f3;
+}
+.cart-count{
+    background: #FF4141;
+    padding: 1px 6px;
+    display: flex;
+    margin-top: -20px;
+    margin-left: -53px;
+    border-radius: 50%;
+    color: #f3f3f3;
+    font-size: 11px;
+}
+.nav-login-cart img{
+    width: 29px;
+}
+
+.category-loadmore{
+  text-align: center;
+  margin: 80px;
+}
+.category-loadmore button{
+  margin: auto;
+  border: 1px solid gray;
+  width: 250px;
+  padding: 15px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all .5s ;
+}
+.category-loadmore button:hover{
+  transform: scale(1.04);
+  box-shadow: 0px 0px 4px gray;
+}
+
+
+
+
+/* mobile menu */
+.humburger{
+  font-size: 30px;
+  margin-top: 10px;
+  display: none;
+  cursor: pointer;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+
+@media (max-width: 670px) {
+  .humburger{
+    display: block;
+  }  
+  .navmenu{
+    display: none;
+  }
+  .nav-login-cart{
+    display: none;
+  }
+  .navbar{
+    justify-content: space-between;
+  }
+}
+
+
+ li{
+  list-style: none;
+ }
+
+ .myorders{
+  margin-left: 38px;
+ }
+
+ .login-out-btn{
+  margin-left: 38px;
+ }
+
+
+
+ 

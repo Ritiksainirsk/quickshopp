@@ -1,0 +1,109 @@
+.loginsignin{
+    width: 100%;
+    height: 80vh;
+    background: #fce3fe;
+    padding: 100px 0;
+}
+
+.loginsignin-containt{
+    width: 400px;
+    height: 470px;
+    background: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+
+.loginsignin-containt h1{
+    margin: 20px 0px;
+}
+
+.loginsign-fiels{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+
+.loginsign-fiels input{
+    width: 100%;
+    height: 52px;
+    padding-left: 20px;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 15px;
+}
+
+.loginsignin-containt button{
+    width: 420px;
+    height: 52px;
+    color: white;
+    background: #9f0495;
+    margin-top:30px ;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginsignin-login{
+    margin-top: 15px;
+}
+.loginsignin-login span{
+    color: #9f0495;
+}
+
+.loginsignin span{
+    cursor: pointer;
+}
+
+
+/* media  */
+
+@media (max-width: 630px) {
+    .loginsignin-containt{
+        width: 250px;
+        height: 370px;
+        margin: auto;
+        padding: 40px 60px;
+        font-size: 13px;
+    }
+    .loginsign-fiels input{
+        width: 100%;
+        height: 42px;
+        font-size: 13px;
+    }
+    .loginsignin-containt button{
+        width: 270px;
+        height: 42px;
+        font-size: 13px;
+    }
+    .loginsignin{
+        width: 100%;
+        height: 70vh;
+    }
+}
+
+@media (max-width: 420px) {
+    .loginsignin-containt{
+        width: 200px;
+        height: 370px;
+        margin: auto;
+        padding: 40px 60px;
+        font-size: 10px;
+    }
+    .loginsign-fiels input{
+        width: 100%;
+        height: 42px;
+        font-size: 10px;
+    }
+    .loginsignin-containt button{
+        width: 220px;
+        height: 42px;
+        font-size: 10px;
+    }
+    .loginsignin{
+        width: 100%;
+        height: 70vh;
+    }
+}

@@ -1,0 +1,40 @@
+.descriptionbox{
+    margin: 30px 100px;
+}
+
+.descriptionbox .discriptionbox-navigator{
+    display: flex;
+    gap: 10px;
+}
+
+.discriptionbox-navigator div{
+    padding: 10px 20px;
+    background: #f6f6f6;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.discriptionbox-navigator div:hover{
+    background-color:#ebebeb ;
+}
+
+.discriptionbox-discription{
+    padding: 20px 15px ;
+    border: 1px solid gray;
+}
+
+/*  */
+@media (max-width:700px) {
+    .descriptionbox{
+        margin: 30px 50px;
+    }
+}
+
+@media (max-width:700px) {
+    .descriptionbox{
+        font-size: 12px;
+    }
+    .descriptionbox{
+        margin: 30px 30px;
+    }
+}
